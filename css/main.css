@@ -1,0 +1,424 @@
+/* public-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/public-sans-v15-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/public-sans-v15-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/public-sans-v15-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/public-sans-v15-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* public-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/public-sans-v15-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-serif-display-regular - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-serif-display-v15-latin_latin-ext-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* dm-serif-display-italic - latin_latin-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "DM Serif Display";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/dm-serif-display-v15-latin_latin-ext-italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+body {
+  width: 1440px;
+}
+body .visual-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+body .container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .header {
+  width: 1110px;
+  height: 48px;
+  top: 40px;
+  left: 165px;
+  display: flex;
+  gap: 64px;
+}
+body .header .header-logo {
+  width: 135px;
+  height: 38px;
+  top: 5px;
+  padding: 0px, 0.34px, 0px, 0px;
+  margin-left: 165px;
+  margin-top: 45px;
+}
+body .header .header-nav {
+  display: flex;
+  gap: 40px;
+  margin-top: 56px;
+}
+body .header .header-nav__link {
+  width: 51px;
+  height: 18px;
+  top: 16px;
+  left: 199px;
+  opacity: 0.7px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  text-decoration: none;
+  color: #36536b;
+}
+body .header .header-btn {
+  width: 173px;
+  height: 48px;
+  left: 937px;
+  border-radius: 25px;
+  background: #ba4270;
+  border: 0;
+  margin-top: 40px;
+  margin-left: 292px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  color: #ddd;
+}
+body .header .header-hamburger__btn {
+  display: none;
+  width: 28px;
+  height: 17px;
+  top: 51px;
+  left: 323px;
+  margin-left: 664px;
+  margin-top: 51px;
+}
+@media only screen and (max-width: 375px) {
+  body .header .header-nav {
+    display: none;
+  }
+  body .header .header-btn {
+    display: none;
+  }
+  body .header .header-hamburger__btn {
+    display: inline;
+  }
+}
+body main .intro {
+  margin-top: 162px;
+}
+body main .intro-father {
+  display: flex;
+  gap: 156px;
+  flex-direction: row;
+}
+body main .intro-child {
+  width: 546px;
+  height: 345px;
+  top: 240px;
+  left: 165px;
+  margin-bottom: 20px;
+}
+body main .intro-child__h3 {
+  width: 546px;
+  height: 243px;
+  font-family: DM Serif Display;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.5538461804px;
+  color: #36536b;
+}
+body main .intro-child__input {
+  width: 445px;
+  height: 48px;
+  top: 264px;
+  border-radius: 25px;
+  padding: 15px 32px;
+  padding-right: 145px;
+}
+body main .intro-child__btn {
+  width: 173px;
+  height: 48px;
+  left: 272px;
+  background: #ba4270;
+  border-radius: 25px;
+  border: 0;
+  position: absolute;
+  left: 560px;
+}
+body main .intro-child__btn:hover {
+  opacity: 60%;
+}
+body main .intro-img {
+  width: 313px;
+  height: 550px;
+  top: 162px;
+  left: 917px;
+  margin-top: -80px;
+}
+@media only screen and (max-width: 768px) {
+  body main .intro-father {
+    flex-direction: column;
+    margin-left: 497px;
+    order: -1;
+  }
+  body main .intro-img {
+    margin-bottom: 0px;
+    margin-left: 150px;
+  }
+  body main .intro-child__btn {
+    left: 860px;
+    position: absolute;
+  }
+  body main .intro-child__p {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 375px) {
+  body main .intro-father {
+    flex-direction: column;
+    margin-left: 497px;
+    text-align: center;
+    order: -1;
+  }
+  body main .intro-img {
+    margin-bottom: 0px;
+    margin-left: -270px;
+  }
+  body main .intro-child__btn {
+    position: relative;
+    display: inline-block;
+    width: 447px;
+    height: 48px;
+    left: 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  body main .intro-child__p {
+    text-align: center;
+  }
+}
+body .work {
+  width: 1440px;
+  height: 472px;
+  background: #1b262f;
+}
+body .work .work-father {
+  display: flex;
+  gap: 131px;
+}
+body .work .work-h2 {
+  width: 445px;
+  height: 56px;
+  font-family: DM Serif Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369230777px;
+  text-align: left;
+  color: #fbfcfe;
+  margin-top: 100px;
+}
+body .work .work-p {
+  width: 445px;
+  height: 112px;
+  top: 80px;
+  opacity: 0.7px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #fbfcfe;
+  margin-top: 24px;
+}
+body .work .work-btn {
+  top: 1061px;
+  left: 165px;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 32px;
+  border-radius: 25px;
+  margin-top: 32px;
+}
+body .work .work-list {
+  display: flex;
+  gap: 62px;
+}
+body .work .work-list__t {
+  margin-top: 40px;
+}
+body .work .work__father {
+  margin-top: 180px;
+}
+@media only screen and (max-width: 768px) {
+  body .work .work-father {
+    flex-direction: column;
+    margin-left: 497px;
+    text-align: center;
+  }
+  body .work .work {
+    width: 768px;
+    height: 915px;
+  }
+  body .work .work__father {
+    margin-top: 88px;
+    order: -1;
+  }
+  body .work .work-h2 {
+    margin-top: -120px;
+    margin-left: 50px;
+  }
+  body .work .work-father {
+    width: 768px;
+    height: 1015px;
+    top: 809px;
+  }
+  body .work .work-btn {
+    position: static;
+    margin-left: -160px;
+    margin: 0 200px 0 0;
+  }
+  body .work .work-p {
+    text-align: center;
+    margin-left: 50px;
+  }
+}
+body .form {
+  height: 284px;
+  margin-bottom: 150px;
+}
+body .form .form-father {
+  display: flex;
+  gap: 125px;
+}
+body .form .form-img {
+  width: 565px;
+  height: 500px;
+  top: 1359px;
+  left: 165px;
+}
+body .form .form-child {
+  margin-top: 160px;
+}
+body .form .form__h2 {
+  width: 445px;
+  height: 56px;
+  font-family: DM Serif Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369230777px;
+  text-align: left;
+  color: #36536b;
+}
+body .form .form__p {
+  width: 445px;
+  height: 84px;
+  top: 80px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #6c8294;
+}
+@media only screen and (max-width: 768px) {
+  body .form .form-child {
+    margin-top: -200px;
+  }
+  body .form .form-father {
+    flex-direction: column;
+    margin-left: 497px;
+    text-align: center;
+  }
+  body .form .form__h2 {
+    width: 573px;
+    height: 56px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  body .form .form__p {
+    text-align: center;
+    width: 573px;
+    height: 56px;
+    top: 80px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  body .form .form-child {
+    margin-top: -200px;
+  }
+  body .form .form-father {
+    flex-direction: column;
+    margin-left: 497px;
+    text-align: center;
+  }
+  body .form .form__h2 {
+    width: 573px;
+    height: 56px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  body .form .form__p {
+    text-align: center;
+    width: 328px;
+    height: 112px;
+    top: 60px;
+    margin-left: 100px;
+  }
+}/*# sourceMappingURL=main.css.map */
